@@ -62,5 +62,140 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+.all{
+	width:1000px;
+	margin: 0 auto;
+}
+
+nav {
+	text-align: left;
+	margin: 3%;
+	color: gray;
+	word-spacing: 70px; 
+}
+nav a{
+	color: gray;
+	text-decoration: none;
+}
+.top{
+	display:flex;
+	justify-content: center;
+}
+
+.innovation{
+	font-size: 70px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 10%;
+	margin-bottom: 2%;
+	text-align: center;
+}
+.image{
+	display:flex;
+	margin-left: 15%;
+	margin-top: 3%;
+}
+
+.features1{
+	width: 35%;
+	display: inline-block;
+	margin:1% 3%;
+	padding: 1%;
+	margin-right:11%;
+	
+    
+	
+}
+.features1 section{
+	background-color: red;
+}
+.features2{
+	width: 35%;
+	display: inline-block;
+	margin:1% 3%;
+	padding: 1%;
+	margin-right:11%;
+	position: relative;
+    left: 4rem;
+}
+
+.services{
+	width: 25%;
+	display: inline-block;
+	margin: 5%;
+	padding: 1%;
+	border: 5px solid black;
+}
+.product{
+	width: 20%;
+	display: inline-block;
+	margin: 1% 3%;
+	margin-right: 10%
+	
+}
+.vision{
+	width: 25%;
+	margin: 5%;
+	padding: 1%;
+	border: 5px solid black;
+}
+.middle-img{
+	width:85%;
+	margin: 0% 3%;
+	
+}
+footer{
+	margin: 3%;
+}
+.cr{
+	text-align: center;
+}
+
+.imgOne{
+	display:flex;
+	justify-content: center;
+	
+}
+
+.Services{
+	margin:2% 5%;
+}
+
+.main{
+	display: flex;
+	justify-content: center;
+	flex-wrap:wrap;
+	justify-content: space-around;
+
+}
+.main section{
+	width:37%;
+	border: 1px solid black;
+	margin:2%;
+	padding:2%;
+	background-color: #F5F5F5;
+}
+.bottom{
+	display:flex;
+	justify-content:space-around;
+	width:1%
+	
+}
+.someFacts{
+	width:35%;
+	margin-left:2%;
+	width:40%;
+}
+ul {
+	list-style-type: square;
+	list-style-position: inside;
+}
+li{
+	margin:px;
+}
+.Copy{
+	text-align: center;
+}
+
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
